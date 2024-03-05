@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <form method="get" action="">
+            <fieldset>
+                <legend>Dados da viagem</legend>
+                <label for="">Nome:</label><br>
+                <input type="text" name="nome" id=""><br><br>
+
+                <label for="">Email:</label><br>
+                <input type="email" name="email" id=""><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Serviços desejados</legend>
+
+                <label for="">
+                    <br><input type="checkbox" name="passagens" value="Passagens" id="">Compra de passagens
+                </label>
+
+                <label for="">
+                    <br><input type="checkbox" name="hospedagem" value="Hospedagem" id="">Reserva de hospedagem
+                </label>
+
+                <label for="">
+                    <br><input type="checkbox" name="veiculos" value="Veiculos" id="">Aluguel de veículos <br><br>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha a forma de pagamento:</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito
+                </label>
+                <label for="">
+                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+                </label>
+                <label for="">
+                    <br><input type="radio" name="formaPagamento" value="Pix">Pix
+                </label>
+            </fieldset>
+            <legend>Escolha o prazo para pagamento:</legend>
+            <select name="prazoPagamento" id="">
+                <option value="aVista" selected>À vista</option>
+                <option value="5x">5x sem juros</option>
+                <option value="10x">10x com juros</option>
+            </select>
+
+            <fieldset>
+                <label for="">
+                    <input type="submit" name="" id="">
+                </label>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Lucas Gabriel</p>
+    </footer>
+
+</body>
+
+</html>
